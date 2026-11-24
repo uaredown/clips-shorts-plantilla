@@ -1,0 +1,13 @@
+{
+ "_nota": "Canales para quien_en_directo.py y el horario de 30 min. prioridad: 1 = campaña que paga, 2 = sin campaña (riesgo). Estado de permiso: shared/permisos-streamers.md",
+ "Lacy":          {"twitch": "lacy",          "prioridad": 1, "campanas": ["Lacy", "CORE"]},
+ "Clix":          {"twitch": "clix",          "prioridad": 1, "campanas": ["Clix"]},
+ "Tomo":          {"youtube": "@Tomovids",    "prioridad": 1, "campanas": ["Tomo"]},
+ "Silky":         {"twitch": "silky",         "prioridad": 1, "campanas": ["CORE"], "nota": "solo con otro miembro de CORE"},
+ "JasonTheWeen":  {"twitch": "jasontheween",  "prioridad": 1, "campanas": ["CORE"], "nota": "solo con otro miembro de CORE"},
+ "Adapt":         {"twitch": "adapt",         "prioridad": 1, "campanas": ["CORE"], "nota": "solo con otro miembro de CORE"},
+ "Marlon":        {"twitch": "marlon",        "prioridad": 1, "campanas": ["CORE"], "nota": "solo con otro miembro de CORE"},
+ "StableRonaldo": {"twitch": "stableronaldo", "prioridad": 1, "campanas": ["CORE"], "nota": "solo con otro miembro de CORE"},
+ "KaiCenat":      {"twitch": "kaicenat",      "prioridad": 2, "campanas": []},
+ "IShowSpeed":    {"youtube": "@IShowSpeed",  "twitch": "ishowspeed", "prioridad": 2, "campanas": []}
+}

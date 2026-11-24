@@ -1,0 +1,25 @@
+# Credenciales: NUNCA al repo
+stages/06-qa-publicacion/credenciales/*.json
+*.pickle
+.env
+
+# Vídeos, audio y salidas de cada etapa
+stages/*/output/*
+!stages/*/output/.gitkeep
+output/
+*.mp4
+*.ts
+*.mp3
+*.m4a
+
+# Binarios descargados por instalar.ps1
+stages/01-fuentes-clips/bin/
+
+# Registros y métricas del canal
+shared/registros/*
+!shared/registros/.gitkeep
+
+__pycache__/
+*.pyc
+.claude/
+shared/emojis/*.png

@@ -1,0 +1,94 @@
+{
+ "_nota": "Reglas de campañas de clipping que comprueba stages/06-qa-publicacion/scripts/qa.py. Detalle humano en shared/campanas.md. seleccion.json lista las que aplica en \"campanas\": [\"CORE\", \"Lacy\"].",
+ "CORE": {
+  "fuente": "directos/clips con >=2 miembros de CORE (no el canal de YouTube de CORE)",
+  "miembros_validos": [
+   "Lacy",
+   "Silky",
+   "JasonTheWeen",
+   "Adapt",
+   "Marlon",
+   "StableRonaldo"
+  ],
+  "miembros_min": 2,
+  "hashtags": [
+   "#CORE"
+  ],
+  "hashtag_por_miembro": true,
+  "mencionar": [
+   "CORE",
+   "Lacy",
+   "Silky",
+   "JasonTheWeen",
+   "Adapt",
+   "Marlon",
+   "Stable Ronaldo"
+  ],
+  "idioma": "en",
+  "termina": "2026-11-30"
+ },
+ "Lacy": {
+  "fuente": "directos/VODs/clips de la maratón de GTA de Lacy desde el 2026-11-18; Lacy tiene que ser el FOCO PRINCIPAL (no solo en la intro)",
+  "miembros_validos": [
+   "Lacy"
+  ],
+  "miembros_min": 1,
+  "hashtags": [
+   "#LACY"
+  ],
+  "mencionar": [
+   "Lacy"
+  ],
+  "idioma": "en",
+  "desde": "2026-11-18"
+ },
+ "Clix": {
+  "fuente": "directos/clips de la maratón de GTA de Clix (o sus redes) desde el 2026-11-18; Clix tiene que ser el foco principal",
+  "miembros_validos": [
+   "Clix"
+  ],
+  "miembros_min": 1,
+  "hashtags": [
+   "#Clix"
+  ],
+  "mencionar": [
+   "Clix"
+  ],
+  "idioma": "en",
+  "desde": "2026-11-18"
+ },
+ "Tomo": {
+  "fuente": "directos de YouTube de Tomo (youtube.com/@Tomovids, pestaña En directo) y sus vídeos de GTA VI",
+  "miembros_validos": [
+   "Tomo"
+  ],
+  "miembros_min": 1,
+  "hashtags": [
+   "#tomovids",
+   "#gta6"
+  ],
+  "mencionar": [
+   "Tomo"
+  ],
+  "en_texto": [
+   "@Tomovids"
+  ],
+  "cta": true,
+  "idioma": "en",
+  "nota": "CTA en pantalla obligatorio ('Subscribe to Tomo on YouTube'); captura de países (>=40% Tier 1) al pasar 2.000 vistas; no borrar en 30 días; máx. 5 clips casi iguales"
+ },
+ "Kai": {
+  "fuente": "maratón de GTA 6 de Kai Cenat (Twitch/YouTube) desde el 2026-11-18; Kai protagonista todo el vídeo (no solo en la intro)",
+  "miembros_validos": [
+   "KaiCenat"
+  ],
+  "miembros_min": 1,
+  "hashtags": [
+   "#KaiCenat"
+  ],
+  "mencionar": [
+   "Kai Cenat"
+  ],
+  "idioma": "en"
+ }
+}

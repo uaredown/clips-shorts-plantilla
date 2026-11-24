@@ -1,0 +1,1 @@
+Pon aquí `client_secret.json` (cliente OAuth de escritorio de tu proyecto de Google Cloud). `token.json` se crea solo al ejecutar `python youtube_api.py auth`. **Nunca los subas a GitHub** (ya están en .gitignore).
