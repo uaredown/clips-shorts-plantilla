@@ -57,7 +57,7 @@ Instala las librerías de Python (`requirements.txt`), ffmpeg y yt-dlp con winge
 - `shared/streamers.json`: los streamers a vigilar (Twitch/YouTube y prioridad). Viene con un ejemplo real.
 - `shared/permisos-streamers.md`: **fuente de verdad** de permisos. Solo se clipea a quien esté en `ok` (o `riesgo`, si decides asumirlo). `descargar_clip.py` lo comprueba.
 - `shared/campanas.json` + `campanas.md`: reglas de las campañas de clipping (hashtags, menciones, ≥N vistas por clip). `qa.py` las comprueba.
-  - Las campañas de pago por vistas están en plataformas como **Content Rewards** (Reach, Clipping Nation, Clipped & Shipped…). Normalmente hay que **enviar el enlace en los 30 min siguientes a publicar**.
+  - Las campañas de pago por vistas están en plataformas como **Content Rewards** (Reach, Clipping Nation, Clipped & Shipped…). Normalmente hay que **enviar el enlace en los 30 min siguientes a publicar**. Guía completa (alta, tipos de pago, envío y automatización con Claude): [`docs/campanas-content-rewards.md`](docs/campanas-content-rewards.md).
 - `shared/marca.md`: nombre, tono, colores y tipografías del canal.
 - `shared/receta-produccion.md`: **la receta** (qué clip vale, gancho, duración, SEO). Es lo único que hay que leer para hacer un Short. Adáptala a tu juego.
 
